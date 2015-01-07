@@ -1,0 +1,12 @@
+*.exe
+*.ilk
+*.pdb
+*.obj
+*.log
+*.tlog
+*.idb
+*.user
+*.config
+*.manifest
+*.sdf
+*.opensdf
