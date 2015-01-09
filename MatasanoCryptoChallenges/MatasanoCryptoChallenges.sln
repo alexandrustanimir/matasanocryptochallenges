@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FixedXOR", "FixedXOR\FixedX
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SingleByteXor", "SingleByteXor\SingleByteXor.vcxproj", "{61E61E87-9610-479F-80A4-9E980458BD35}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DetectSingleCharXor", "DetectSingleCharXor\DetectSingleCharXor.vcxproj", "{722B97F5-73FF-465A-A3C1-A47BC86CC342}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -43,6 +45,14 @@ Global
 		{61E61E87-9610-479F-80A4-9E980458BD35}.Release|Win32.ActiveCfg = Release|Win32
 		{61E61E87-9610-479F-80A4-9E980458BD35}.Release|Win32.Build.0 = Release|Win32
 		{61E61E87-9610-479F-80A4-9E980458BD35}.Release|x64.ActiveCfg = Release|Win32
+		{722B97F5-73FF-465A-A3C1-A47BC86CC342}.Debug|ARM.ActiveCfg = Debug|Win32
+		{722B97F5-73FF-465A-A3C1-A47BC86CC342}.Debug|Win32.ActiveCfg = Debug|Win32
+		{722B97F5-73FF-465A-A3C1-A47BC86CC342}.Debug|Win32.Build.0 = Debug|Win32
+		{722B97F5-73FF-465A-A3C1-A47BC86CC342}.Debug|x64.ActiveCfg = Debug|Win32
+		{722B97F5-73FF-465A-A3C1-A47BC86CC342}.Release|ARM.ActiveCfg = Release|Win32
+		{722B97F5-73FF-465A-A3C1-A47BC86CC342}.Release|Win32.ActiveCfg = Release|Win32
+		{722B97F5-73FF-465A-A3C1-A47BC86CC342}.Release|Win32.Build.0 = Release|Win32
+		{722B97F5-73FF-465A-A3C1-A47BC86CC342}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
