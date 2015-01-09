@@ -34,7 +34,16 @@ int main()
 {
 	string message = "Burning 'em, if you ain't quick and nimble";
 	string key = "ICE";
-	cout << repeteatXor(message, repeatKey(key, message.length())).c_str() << "\n";
+	string result = repeteatXor(message, repeatKey(key, message.length()));
+	for (auto& c : result)
+	{
+		cout << std::hex << (int)c;
+	}
+	cout << "\n";
 	message = "I go crazy when I hear a cymbal";
-	cout << repeteatXor(message, repeatKey(key, message.length())).c_str() << "\n";
+	result = repeteatXor(message, repeatKey(key, message.length()));
+	for (auto& c : result)
+	{
+		cout << std::hex << (int)c;
+	}
 }
